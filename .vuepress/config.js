@@ -59,7 +59,11 @@ module.exports = {
       }
     }],
     // 根据目录自动生成文件侧边栏
-    ["vuepress-plugin-auto-sidebar", {}],
+    ["vuepress-plugin-auto-sidebar", {
+      titleMode: 'titlecase',
+      collapsable: true,
+      sidebarDepth: 3
+    }],
     [
       "permalink-pinyin",
       {
@@ -108,7 +112,7 @@ module.exports = {
     },
     "friendLink": [
     ],
-    "logo": "./avatar.png",
+    "logo": "https://tiny-blog.oss-cn-guangzhou.aliyuncs.com/blog/202312301612791.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",

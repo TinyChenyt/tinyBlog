@@ -1,15 +1,16 @@
 ---
-title: python基础
-date: 2023-12-14
+title: Python基础
+date: 2023-12-30
 tags:
   - Python
 categories:
   - Python
 ---
+# Python基础
 
 ## 输出
 
-```py
+```python
 print(201);
 
 # 写入文件，open("路径","方式")
@@ -20,7 +21,7 @@ fp.close()
 
 ## 分支
 
-```py
+```python
 # 分支 else if
 # 判断语句可以写成 60<=grade>=100
 # grade = int(input("请输入你的成绩"))
@@ -41,7 +42,7 @@ fp.close()
 
 ## 变量
 
-```py
+```python
 # 变量
 # 标识 表示对虾所储存的内存地址，使用内置函数id(obj)来获取
 # 类型 表示对象的数据类型，使用内置函数type(obj)来获取
@@ -56,7 +57,7 @@ print(name, nameId, nameType)
 
 ## 循环语句
 
-```py
+```python
 # 循环语句
 # while 循环
 # a = 1
@@ -99,7 +100,7 @@ print(name, nameId, nameType)
 
 ## 注释
 
-```py
+```python
 # 代码注释
 
 # #作为单行注释
@@ -111,7 +112,7 @@ print(name, nameId, nameType)
 
 ## 类型
 
-```py
+```python
 # python 常见的变量类型
 # 整数类型、浮点数类型、布尔类型、字符串类型
 
@@ -151,7 +152,7 @@ print(str3)
 
 ## 输入
 
-```py
+```python
 # input()函数
 # 作用：接收来自用户的输入 返回值类型：输入值的类型为str 值的存储：使用=对输入的值进行存储
 # 变量名 = input("提示语") 输入的数据会赋值给变量
@@ -169,7 +170,7 @@ print(a + b)
 
 ## 运算符
 
-```py
+```python
 # 运算符
 
 # 算数运算符
