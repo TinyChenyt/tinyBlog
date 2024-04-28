@@ -1,3 +1,12 @@
+---
+title: 云服务器部署java项目
+date: 2024-4-28
+tags:
+  - 云服务器
+categories:
+  - 云服务器
+---
+
 ### 关闭 nohup 进程
 
 ```
