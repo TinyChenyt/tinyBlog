@@ -108,7 +108,7 @@ module.exports = {
     },
     "friendLink": [
     ],
-    "logo": "./avatar.png",
+    "logo": "https://tiny-blog.oss-cn-guangzhou.aliyuncs.com/blog/avatar.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
