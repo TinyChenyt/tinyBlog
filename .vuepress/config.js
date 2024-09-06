@@ -52,12 +52,7 @@ module.exports = {
       }
     ],
     // 复制弹窗插件
-    ["vuepress-plugin-nuggets-style-copy", {
-      copyText: "复制代码",
-      tip: {
-        content: "复制成功!"
-      }
-    }],
+    ["vuepress-plugin-code-copy", true],  
     // 根据目录自动生成文件侧边栏
     ["vuepress-plugin-auto-sidebar", {}],
     [

@@ -19,7 +19,7 @@ git commit -m 'deploy'
 # 如果你想要部署到 https://USERNAME.github.io
 # git push -f git@github.com:AirHua-byte/AirHua-byte.github.io.git master
 
-git remote add origin git@github.com:TinyChenyt/tinyBlog.git
+git remote add origin https://github.com/TinyChenyt/tinyBlog.git
  
 git branch -M gh-pages
 
